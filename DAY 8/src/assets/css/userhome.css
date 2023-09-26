@@ -1,0 +1,275 @@
+
+.navbar {
+    background-color:#04354a;
+    color: white;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li:hover{
+    background-color: #091f29;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+.activestat {
+      background-color: #01151e ;
+
+  }
+  .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Apply styles to the footer */
+  .footer {
+    background-color: #04354a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .rightlogout{
+    right: 0px;
+  }
+  /* Apply styles to the content */
+  .userhomecontent {
+    padding: 20px;
+    background-image: url("../images/businessman-using-digital-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 621px;
+    align-items: center;
+  justify-content: center;
+    background-size: cover;
+    color: aliceblue; 
+  }
+  .contactcontent {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/businessman-using-digital-tablet.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 83vh; /* Ensure the container fills the full viewport height */
+    text-align: center;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  #homeh {
+    animation: slideIn 2s ease-in-out;
+    font-size:40px; /* Apply the animation to h1 and p */
+  }
+  #homep {
+    animation: slideIn 2.5s ease-in-out; /* Apply the animation to h1 and p */
+    font-size: 20px;
+  }
+  /* Styles for links within the content */
+  .content a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+
+
+  .profile-card {
+    background-color: #04354a90;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+  }
+  /* Style the user data table */
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-table tr:last-child td {
+    border-bottom: none;
+  }
+  .editprofile{
+    background-color: #042d3e;
+    color: white;
+  }
+  .editprofile:hover{
+    background-color: #3d4e55;
+    color: white;
+  }
+  /* Style the headings in the table */
+  .user-table th {
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Style the h2 heading for the profile card */
+  .profile-card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  /* contact.css */
+.contact {
+  margin-top: 20px;
+  align-items: center;
+  margin-right: 30px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+
+}
+
+.contact-details {
+  margin-bottom: 20px;
+}
+
+.contact-details p {
+  font-size: 18px;
+}
+
+.social-media-links {
+  margin-top: 20px;
+}
+
+.social-media-links h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.social-media-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media-links li {
+  margin-bottom: 10px;
+}
+
+.social-media-links a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white; /* Set the color to white */
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.social-media-links a i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+/* campaign CSS  */
+
+.features {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature {
+flex: 0 1 calc(33.33% - 20px);
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 9px;
+background-color: #04354a8d;
+text-align: center;
+box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.feature h2 {
+font-size: 20px;
+margin-bottom: 10px;
+color: #ffffff;
+}
+
+.feature p {
+font-size: 16px;
+color: #ffffff;
+}
+/* emailmarketing.css */
+/* ... Other styles ... */
+
+/* Styles for EmailMarketing component */
+.email-form {
+  background-color: #04354a;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.email-form .form-group {
+  margin-bottom: 20px;
+
+}
+
+.email-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.email-form input[type="email"],
+.email-form input[type="text"],
+.email-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.email-form textarea {
+  resize: vertical;
+}
+
+.email-submit-button {
+  background-color: #06415a;
+  color: white;
+  padding: 10px 20px;
+  
+  border-color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.email-submit-button:hover {
+  background-color: #3d4e55;
+}
